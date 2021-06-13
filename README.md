@@ -7,11 +7,11 @@ The vulnerable code database (Vulncode-DB) is a database for vulnerabilities and
 
 | TYPE                 | DESCRIPTION                                                            |
 |----------------------|-------------------------------------------------------------------------|
-| type 1.1             | There is a patch to the code fragment of the vulnerability `function` in diff   |
-| type 1.2             | There is a patch to the code fragment of the vulnerability `file` in diff  |
-| type 2.1             | There is a patch to the code fragment of the vulnerability `file` in diff, but there is no patch to the vulnerability function  |
-| type 3.1             | The diff is a fix for the vulnerability, because the page from which diff comes is marked with `CVE` |
-| type 4.0             | The correlation between the diff and the vulnerability cannot be determined |
+| 1.1             | There is a patch to the code fragment of the vulnerability `function` in diff   |
+| 1.2             | There is a patch to the code fragment of the vulnerability `file` in diff  |
+| 2.1             | There is a patch to the code fragment of the vulnerability `file` in diff, but there is no patch to the vulnerability function  |
+| 3.1             | The diff is a fix for the vulnerability, because the page from which diff comes is marked with `CVE` |
+| 4.0             | The correlation between the diff and the vulnerability cannot be determined |
 
 
 # File-level vulnerability samples
